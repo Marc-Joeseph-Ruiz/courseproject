@@ -18,7 +18,12 @@ body {
 }
 
 header {
-    background: #4a4a4a;
+    background-image: url(Images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
     color: white;
     padding: 30px 20px;
     text-align: center;
