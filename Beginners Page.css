@@ -89,6 +89,27 @@ p {
     max-width: 1200px;
 }
 
+button, a {
+    cursor: pointer;
+    outline: none;
+    padding: 10px 15px;
+}
+
+button:focus, a:focus {
+    outline: 2px solid #ffcc00;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 2em;
@@ -109,25 +130,24 @@ p {
     }
 }
 
-@media (max-width: 900px) {
+/* Additional Mobile Enhancements */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
     h1 {
-        font-size: 2.5em;
+        font-size: 1.8em;
+        padding: 10px;
     }
 
     h2 {
-        font-size: 1.6em;
+        font-size: 1.4em;
+        padding: 8px;
     }
-}
 
-button, a {
-    cursor: pointer;
-    outline: none;
-}
-
-button:focus, a:focus {
-    outline: 2px solid #ffcc00;
-}
-
-button, a {
-    padding: 10px 15px;
+    p {
+        padding: 10px;
+        font-size: 1em;
+    }
 }

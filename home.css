@@ -8,6 +8,11 @@ html, body {
     color: #333;
 }
 
+image {
+    max-width:100%;
+    height: auto;
+}
+
 body {
     background-color: #f4f4f4;
     overflow-x: hidden;
@@ -70,6 +75,17 @@ li {
     margin-bottom: 10px;
 }
 
+button, a {
+    cursor: pointer;
+    outline: none;
+    padding: 10px 15px;
+}
+
+button:focus, a:focus {
+    outline: 2px solid #ccc;
+}
+
+/* Responsive Design */
 @media (max-width: 600px) {
     nav a {
         font-size: 16px;
@@ -83,6 +99,14 @@ li {
     h2 {
         font-size: 20px;
     }
+
+    header {
+        padding: 20px 15px;
+    }
+
+    footer {
+        padding: 15px 10px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -93,17 +117,12 @@ li {
     h2 {
         font-size: 22px;
     }
-}
 
-button, a {
-    cursor: pointer;
-    outline: none;
-}
+    header {
+        padding: 25px 18px;
+    }
 
-button:focus, a:focus {
-    outline: 2px solid #ccc;
-}
-
-button, a {
-    padding: 10px 15px;
+    footer {
+        padding: 18px 12px;
+    }
 }
