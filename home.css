@@ -8,14 +8,13 @@ html, body {
     color: #333;
 }
 
-image {
-    max-width:100%;
-    height: auto;
-}
-
 body {
-    background-color: #f4f4f4;
-    overflow-x: hidden;
+        background-image: url(Images/Home\ page.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        overflow-x: hidden;
 }
 
 header {
