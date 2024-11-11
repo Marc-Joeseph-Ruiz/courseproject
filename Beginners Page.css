@@ -84,8 +84,9 @@ p {
 }
 
 .video-container iframe {
-    width: 1200px;
-    height: 600px; 
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
 }
 
 @media (max-width: 600px) {
@@ -99,9 +100,34 @@ p {
 
     p {
         margin: 8px auto;
+        padding: 15px;
+        font-size: 1.2em;
     }
 
     .video-container {
         margin: 20px auto;
     }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+button, a {
+    cursor: pointer;
+    outline: none;
+}
+
+button:focus, a:focus {
+    outline: 2px solid #ffcc00;
+}
+
+button, a {
+    padding: 10px 15px;
 }
