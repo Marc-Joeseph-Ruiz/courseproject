@@ -84,9 +84,9 @@ p {
 }
 
 .video-container iframe {
-    width: 100%;
-    height: auto;
-    max-width: 1200px;
+    width: 900px;
+    height: 500px;
+    max-width: 100%;
 }
 
 button, a {
