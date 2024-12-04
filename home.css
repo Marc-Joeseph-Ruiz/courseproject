@@ -60,6 +60,29 @@ section {
     max-width: 800px;
 }
 
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1; 
+    }
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: #FFD700;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    margin: 20px 0;
+    animation: fadeInOut 5s ease-in-out infinite; 
+}
+
+.icon-large {
+    font-size: 2.5em; 
+    vertical-align: middle; 
+}
 h2 {
     margin-top: 0;
     font-size: 24px;
