@@ -134,7 +134,6 @@ button:focus, a:focus {
     outline: 2px solid #ffcc00;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 900px) {
     h1 {
         font-size: 2.5em;
@@ -143,47 +142,41 @@ button:focus, a:focus {
     h2 {
         font-size: 1.6em;
     }
+
+    .video-container iframe {
+        width: 100%; /* Make video responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    p {
+        font-size: 1.2em;
+    }
 }
 
 @media (max-width: 600px) {
     h1 {
         font-size: 2em;
     }
-    
+
     h2 {
         font-size: 1.5em;
     }
 
     p {
-        margin: 8px auto;
-        padding: 15px;
-        font-size: 1.2em;
-    }
-
-    .video-container {
-        margin: 20px auto;
-    }
-}
-
-/* Additional Mobile Enhancements */
-@media (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 1.8em;
-        padding: 10px;
-    }
-
-    h2 {
-        font-size: 1.4em;
-        padding: 8px;
-    }
-
-    p {
-        padding: 10px;
         font-size: 1em;
     }
 }
 
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}

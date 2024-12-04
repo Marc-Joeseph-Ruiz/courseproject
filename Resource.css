@@ -106,3 +106,33 @@ footer {
     font-size: 0.9em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for readability */
 }
+
+@media (max-width: 900px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+}
