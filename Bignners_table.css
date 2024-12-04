@@ -1,0 +1,30 @@
+table {
+    width: 90%; 
+    border-collapse: collapse; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+th, td {
+    border: 1px solid #444; 
+    padding: 12px; 
+    text-align: left; 
+    color: #e0e0e0; 
+}
+
+th {
+    background-color: #4CAF50; 
+    color: white; 
+    font-family: 'Garamond', serif; 
+    font-size: 1.2em; 
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    cursor: pointer; 
+}

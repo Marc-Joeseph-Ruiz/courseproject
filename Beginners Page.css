@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    background-image: url(Images/BackGround.jpg);
+    background-image: url('Images/BackGround.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
     z-index: 2;
 }
 nav {
-    background-color: #333; 
+    background-color: #333; /* Example background color */
     padding: 10px 0; 
     text-align: center; 
     position: fixed; 
@@ -57,7 +57,7 @@ nav ul {
 
 nav li {
     display: inline; 
-    margin: 0 15px; 
+    margin: 0 20px; 
 }
 
 nav a {
@@ -83,6 +83,8 @@ h1 {
     border: 2px solid #ffcc00;
     border-radius: 8px;
     display: inline-block;
+    text-align: center; 
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -184,3 +186,4 @@ button:focus, a:focus {
         font-size: 1em;
     }
 }
+
