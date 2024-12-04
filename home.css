@@ -33,15 +33,15 @@ nav {
 }
 
 nav a {
-    color: #FFFFFF; /* White text for better contrast */
+    color: #FFFFFF; 
     margin: 0 20px;
     text-decoration: none;
     font-size: 18px;
     transition: transform 0.3s ease, padding 0.3s ease; 
     padding: 10px 15px; 
-    border: 2px solid #FFD700; /* Gold border */
+    border: 2px solid #FFD700; 
     border-radius: 4px;
-    background-color: #4a4a4a; /* Dark background for better contrast */
+    background-color: #4a4a4a; 
     font-family: 'Cinzel', serif;
     font-weight: bold; 
 }
@@ -49,8 +49,8 @@ nav a {
 nav a:hover {
     transform: scale(1.2, 1.1); 
     padding: 12px 20px; 
-    background-color: #FFD700; /* Gold background on hover */
-    color: #4a4a4a; /* Dark text on hover for contrast */
+    background-color: #FFD700; 
+    color: #4a4a4a; 
 }
 
 section {
