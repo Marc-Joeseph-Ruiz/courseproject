@@ -1,26 +1,26 @@
 body {
     font-family: 'Verdana', sans-serif;
     background-color: #121212;
-    background-image: url('Images/tavern.gif'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the entire screen */
-    background-position: center; /* Centers the background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-image: url(tavern.gif); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     color: #ffffff; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    position: relative; /* For overlay effect */
+    position: relative; 
 }
 
 body::before {
-    content: ""; /* Creates the overlay */
+    content: ""; 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-    z-index: -1; /* Ensures it stays behind the content */
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
 }
 
 nav ul {
@@ -60,22 +60,22 @@ header h1 {
 header p {
     font-size: 1.2em;
     margin-top: 10px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Adds subtle shadow for better readability */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); 
 }
 
 section {
     margin: 20px auto;
     padding: 10px;
     max-width: 800px;
-    background-color: rgba(0, 0, 0, 0.7); /* Darker background for better contrast */
+    background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 section h2 {
-    color: #FFD700; /* Gold for section titles */
+    color: #FFD700; 
     margin-bottom: 10px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Makes titles pop */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
 }
 
 section ul {
@@ -96,7 +96,6 @@ section ul li a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
 footer {
     text-align: center;
     margin-top: 30px;
@@ -104,7 +103,7 @@ footer {
     background-color: #333;
     color: #ffffff;
     font-size: 0.9em;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for readability */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
 }
 
 @media (max-width: 900px) {
